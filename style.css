@@ -1,0 +1,31 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Montserrat:ital,wght@0,200;0,300;0,400;1,200;1,300&family=Poppins:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+header{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+.options a{
+    font-weight: 600;
+    font-size: 16px;
+    color:#3A3A3A;
+    text-decoration: none;
+}
+li{
+    display: inline;
+    text-align: center;
+    padding: 14px 16px;
+
+}
